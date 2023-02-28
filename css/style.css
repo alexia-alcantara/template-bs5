@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700&display=swap');
+
+:root {
+    --shadow: 0px 6px 30px rgba(0, 0, 0, 0.08);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Barlow", sans-serif;
+    line-height: 1.7;
+}
+
+a {
+    font-weight: 500;
+}
+
+h5 {
+    font-weight: 700;
+    color: #092032;
+}
+
+img {
+    width: 100%;
+}
+
+.top-nav {
+    background-color: #ff4d29;
+    color: #fff;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.top-nav p {
+    display: inline-block;
+    margin-bottom: 0;
+    margin-right: 10px;
+}
+
+.top-nav i {
+    vertical-align: middle;
+}
+
+.social-icons a {
+    width: 28px;
+    height: 28px;
+    display: inline-flex;
+    background-color: rgba(255, 255, 255, 0.25);
+    color: #fff6f6;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+}
+
+.navbar-light .navbar-brand {
+    color: rgba(0, 0, 0, .9);
+}
+
+.navbar-brand {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.navbar-brand .dot {
+    color: #ff4d29;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: #092032;
+}
+
+.navbar .navbar-nav .nav-link.active {
+    color: #ff4d29;
+}
+
+
+
+.btn-brand {
+    background-color: #ff4d29;
+    border-color: #ff4d29;
+    color: #fff;
+}
+
+.btn {
+    padding: 8px 25px;
+}
+
+.slide {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.slide1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/images/bg_banner2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.slide2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/images/bg_banner1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hero-slider .owl-prev,
+.hero-slider .owl-next {
+    background-color: rgba(255, 255, 255, 0.3) !important;
+    width: 60px !important;
+    height: 60px !important;
+    display: block;
+    display: grid;
+    place-items: center;
+    color: #fff !important;
+    border-radius: 100px !important;
+    line-height: 0;
+    position: absolute;
+    top: 50%;
+    font-weight: 600 !important;
+    font-size: 12px !important;
+    transition: all 0.4s ease;
+    margin-top: -30px !important;
+}
+
+.owl-prev {
+    left: 0;
+}
+
+.owl-next {
+    right: 0;
+}
+
+.hero-slider .owl-prev:hover,
+.hero-slider .owl-next:hover {
+    background-color: var(--brand) !important;
+}
+
+.owl-dot.active span {
+    background-color: var(--brand) !important;
+}
+
+section {
+    padding: 4rem 0 4rem;
+}
+
+.info-box {
+    display: flex;
+    align-items: center;
+}
+
+.info-box img {
+    width: 90px;
+}
+
+.intro {
+    margin-bottom: 36px;
+    text-align: center;
+}
+
+.intro h1 {
+    margin: 1rem 0 1rem;
+}
+
+.intro h6 {
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #ff4d29;
+}
+
+.intro p {
+    max-width: 500px;
+}
+
+.service {
+    background-color: #fff;
+    box-shadow: var(--shadow);
+    padding: 32px;
+}
+
+.service img {
+    width: 90px;
+}
+
+.service h5 {
+    margin: 2rem 0 2rem;
+}
